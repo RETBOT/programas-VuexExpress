@@ -1,5 +1,5 @@
 const Usuario = require('../models/Users');
-
+// <!-- by: RET BOT  -->
 const recurso_usuario = new Usuario({
 	nombre: 'Mundo',
 	email: 'elmundo@email.com',
@@ -28,7 +28,7 @@ module.exports.controller = (app) => {
 		Usuario.find({}, 'nombre email', function(error, usuarios) {
 		if(error) { 
 			console.error(error);
-		}
+		}// <!-- by: RET BOT  -->
 		else
 			res.send({
 				usuarios: usuarios
@@ -71,7 +71,7 @@ module.exports.controller = (app) => {
 			res.send(usuario);
 		});
 	});
-
+// <!-- by: RET BOT  -->
 	app.get('/prueba6',(req,res) => {
 		// poner identificador
 		Usuario.findByIdAndUpdate('63373c5552a259c6f6b51a61',{$set: {nombre: 'Ronaldiño'}}, 
@@ -113,4 +113,4 @@ module.exports.controller = (app) => {
 			});
 		});
 	}); 
-}
+}// <!-- by: RET BOT  -->
