@@ -3,7 +3,7 @@ const path = require('path')
 const config = require('../config')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const packageConfig = require('../package.json')
-
+// <!-- by: R3T B0T  -->
 exports.assetsPath = function (_path) {
   const assetsSubDirectory = process.env.NODE_ENV === 'production'
     ? config.build.assetsSubDirectory
@@ -28,7 +28,7 @@ exports.cssLoaders = function (options) {
       sourceMap: options.sourceMap
     }
   }
-
+// <!-- by: R3T B0T  -->
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader, loaderOptions) {
     const loaders = options.usePostCSS ? [cssLoader, postcssLoader] : [cssLoader]
@@ -53,7 +53,7 @@ exports.cssLoaders = function (options) {
       return ['vue-style-loader'].concat(loaders)
     }
   }
-
+// <!-- by: R3T B0T  -->
   // https://vue-loader.vuejs.org/en/configurations/extract-css.html
   return {
     css: generateLoaders(),
@@ -65,7 +65,7 @@ exports.cssLoaders = function (options) {
     styl: generateLoaders('stylus')
   }
 }
-
+// <!-- by: R3T B0T  -->
 // Generate loaders for standalone style files (outside of .vue)
 exports.styleLoaders = function (options) {
   const output = []
@@ -81,7 +81,7 @@ exports.styleLoaders = function (options) {
 
   return output
 }
-
+// <!-- by: R3T B0T  -->
 exports.createNotifierCallback = () => {
   const notifier = require('node-notifier')
 
@@ -98,4 +98,4 @@ exports.createNotifierCallback = () => {
       icon: path.join(__dirname, 'logo.png')
     })
   }
-}
+}// <!-- by: R3T B0T  -->
