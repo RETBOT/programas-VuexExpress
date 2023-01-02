@@ -6,7 +6,7 @@ import AgregarPelicula from '@/components/AgregarPelicula';
 import Pelicula from '@/components/Pelicula';
 import Registro from '@/components/Registro';
 import Login from '@/components/Login';
-
+// <!-- by: R ET BOT  -->
 Vue.use(Router);
 
 export default new Router({
@@ -44,3 +44,4 @@ export default new Router({
     },
   ],
 });
+// <!-- by: R ET BOT  -->
