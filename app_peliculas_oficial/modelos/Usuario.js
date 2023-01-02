@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const bcryptjs = require('bcryptjs');
-
+// <!-- by: R3T B0T  -->
 const Esquema = mongoose.Schema;
 const EsquemaUsuario = new Esquema({
   nombre: String,
@@ -8,7 +8,7 @@ const EsquemaUsuario = new Esquema({
   contrasenha: String,
   idExterno: String,
 });
-
+// <!-- by: R3T B0T  -->
 const Usuario = mongoose.model('Usuario', EsquemaUsuario);
 module.exports = Usuario;
 
@@ -20,7 +20,7 @@ module.exports.crearUsuario = (nuevoUsuario, callback) => {
       recursoNuevoUsuario.contrasenha = hash;
       recursoNuevoUsuario.save(callback);
     });
-  });
+  });// <!-- by: R3T B0T  -->
 };
 
 module.exports.obtenerUsuarioporEmail = (email, callback) => {
