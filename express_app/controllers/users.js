@@ -1,5 +1,5 @@
 const Usuario = require('../models/Users');
-
+// <!-- by: RET BOT  -->
 module.exports.controller = (app) => {
     // Obtener todos los usuarios 
     app.get('/users',(req,res) => {
@@ -39,7 +39,7 @@ module.exports.controller = (app) => {
                 res.send(usuario);
             }
         });
-    });
+    });// <!-- by: RET BOT  -->
 
     // Actualizar un usuario
     app.put('/users/:id',(req,res)=>{
@@ -60,7 +60,7 @@ module.exports.controller = (app) => {
                     });
                 }
             });
-    });
+    });// <!-- by: RET BOT  -->
 
     // Eliminar un usuario
     app.delete('/users/:id',(req,res)=>{
@@ -73,4 +73,4 @@ module.exports.controller = (app) => {
             } else res.send(usuario);
         });
     });
-}
+}// <!-- by: RET BOT  -->
