@@ -1,3 +1,4 @@
+// # by: RETBOT 
 import {
 	default as simple, hola, siguiente
 } from './simple2.mjs';
@@ -9,5 +10,5 @@ console.log(siguiente());
 console.log(siguiente());  
 console.log(siguiente());  
   
-
+// # by: RETBOT 
 
