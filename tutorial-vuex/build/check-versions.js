@@ -1,3 +1,4 @@
+// <!-- by: R E T B O T  -->
 'use strict'
 const chalk = require('chalk')
 const semver = require('semver')
@@ -15,7 +16,7 @@ const versionRequirements = [
     versionRequirement: packageConfig.engines.node
   }
 ]
-
+// <!-- by: R E T B O T  -->
 if (shell.which('npm')) {
   versionRequirements.push({
     name: 'npm',
@@ -37,7 +38,7 @@ module.exports = function () {
       )
     }
   }
-
+// <!-- by: R E T B O T  -->
   if (warnings.length) {
     console.log('')
     console.log(chalk.yellow('To use this template, you must update following to modules:'))
@@ -52,3 +53,4 @@ module.exports = function () {
     process.exit(1)
   }
 }
+// <!-- by: R E T B O T  -->
