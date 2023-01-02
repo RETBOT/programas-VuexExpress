@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 var bodyParser = require('body-parser');
 var fs = require('file-system');
 var app = express();
-
+// <!-- by: RET BOT  -->
 // conectar a mongo
 /*mongoose.connect('mongodb://127.0.0.1:27017/express_ad2022',function(){
  
@@ -27,7 +27,7 @@ db.on("error",console.error.bind(console,"error de conexion con la base de datos
 db.once("open",function(callback){
   console.log("Conexion exitosa a la base de datos");
 });
-
+// <!-- by: RET BOT  -->
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -56,7 +56,7 @@ fs.readdirSync('controllers').forEach(function (arch){
 //var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
 
-
+// <!-- by: RET BOT  -->
 //app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 
@@ -80,3 +80,4 @@ app.use(function(err, req, res, next) {
 app.listen(3000, function(){ console.log('escuchando el puerto 3000'); });
 
 module.exports = app;
+// <!-- by: RET BOT  -->
