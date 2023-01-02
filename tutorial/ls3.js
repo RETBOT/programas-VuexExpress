@@ -1,3 +1,4 @@
+// # by: RETBOT 
 const fs = require('fs').promises;
 (async () => {
 	var dir = '.';
@@ -7,3 +8,4 @@ const fs = require('fs').promises;
 	console.log(arch);
 }
 })().catch(err => { console.error(err);});
+// # by: RETBOT 
