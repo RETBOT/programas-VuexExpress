@@ -2,7 +2,7 @@ const Usuario = require('../modelos/Usuario');
 const passport = require('passport');
 const config = require('./../config/Config');
 const Estrategia = require('passport-google-oauth20').Strategy;
-
+// <!-- by: R3T B0T  -->
 module.exports.controller = (app) => {
   // Estrategia de google
   passport.use(new Estrategia({
@@ -33,10 +33,10 @@ module.exports.controller = (app) => {
       return true;
     });
   }));
-
+// <!-- by: R3T B0T  -->
   app.get('/login/google', passport.authenticate('google', { scope: ['email'] }));
 
   app.get('/login/google/return', passport.authenticate('google', { failureRedirect: '/login' }), (req, res) => {
     res.redirect('/');
-  });
+  });// <!-- by: R3T B0T  -->
 };
