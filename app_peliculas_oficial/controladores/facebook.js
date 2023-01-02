@@ -2,7 +2,7 @@ const Usuario = require('../modelos/Usuario');
 const passport = require('passport');
 const config = require('./../config/Config');
 const Estrategia = require('passport-facebook').Strategy;
-
+// <!-- by: R3T B0T  -->
 module.exports.controller = (app) => {
   // Estrategia de facebook
   passport.use(new Estrategia({
@@ -20,7 +20,7 @@ module.exports.controller = (app) => {
           nombre: perfil.displayName,
           email: email,
           idExterno: perfil.id,
-        });
+        });// <!-- by: R3T B0T  -->
         Usuario.crearUsuario(nuevoUsuario, (error) => {
           if (error) {
             // Manejar error
@@ -40,4 +40,4 @@ module.exports.controller = (app) => {
   app.get('/login/facebook/return', passport.authenticate('facebook', { failureRedirect: '/login' }), (req, res) => {
     res.redirect('/');
   });
-};
+};// <!-- by: R3T B0T  -->
