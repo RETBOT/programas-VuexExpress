@@ -2,7 +2,8 @@
   <div class="hello">
     <h1> {{ msg }} </h1>
     <h1>El conteo es: {{ $store.state.conteo }} </h1>
-    <!--<h1>El conteo es: {{ obtenerConteo }}</h1>-->
+    <!--<h1>El conteo es: {{ obtenerConteo }}</h1>--> 
+    <!-- by: R E T B O T  -->
     <button class="btn btn-primary"
     @click="incrementar">Incrementar + </button>
     <button class="btn btn-primary"
@@ -31,4 +32,4 @@ export default {
 <!-- AGREGAMOS COMPONENTE -->
 <style scoped>
 </style>
-
+<!-- by: R E T B O T  -->
