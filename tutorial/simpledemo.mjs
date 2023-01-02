@@ -1,3 +1,4 @@
+// # by: RETBOT 
 import * as simple2 from './simple2.mjs';
 console.log(simple2.hola());
 console.log(`${simple2.siguiente()} ${simple2.cuadrado()}`);
@@ -7,3 +8,4 @@ console.log(`${simple2.siguiente()} ${simple2.cuadrado()}`);
 console.log(`${simple2.siguiente()} ${simple2.cuadrado()}`);      
 console.log(`${simple2.siguiente()} ${simple2.cuadrado()}`);      
 console.log(simple2.valor);
+// # by: RETBOT 
