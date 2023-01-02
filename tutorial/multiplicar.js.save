@@ -1,6 +1,6 @@
 // Si no recibe ningun parametro, debe notificar al usuario como debe 
 // notificar al usuario como debe usar el script 
-
+// # by: RETBOT 
 // variables para la entrada de datos 
 var num1 = 0;
 var num2 = 0;
@@ -21,4 +21,4 @@ if(process.argv[2] >= '0' && process.argv[2] <= '9'){
  console.log("Opcion 1: ingresar un numero para mostrar su tabla de multiplicar.");
  console.log("Opcion 2: ingresar dos numeros para mostrar las tablas de multiplicar de todos los numeros dentro de ese rango (de menor a mayor)");
 }
-
+// # by: RETBOT 
