@@ -11,7 +11,7 @@ const state = {
 const getters = {
   obtenerConteo: state => state.conteo,
 };
-
+// <!-- by: R E T B O T  -->
 const mutations = {
   /* eslint no-plusplus: "error" */
   /* eslint-disable */
@@ -23,7 +23,7 @@ const actions = {
   incrementar: ({ commit }) => commit('incrementar'),
   decrementar: ({ commit }) => commit('decrementar'),
 };
-
+// <!-- by: R E T B O T  -->
 export const store = new Vuex.Store({
   // eslint-disable import/prefer-default-export
   state,
