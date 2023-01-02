@@ -1,3 +1,4 @@
+// <!-- by: RET BOT  -->
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -22,7 +23,7 @@ const history = require('connect-history-api-fallback');
 app.use(morgan('combined'));
 app.use(bodyParser.json());
 app.use(cors());
-
+// <!-- by: RET BOT  -->
 app.use(sesion({
   secret: config.SECRET,
   resave: true,
@@ -40,7 +41,7 @@ mongoose.connect(config.DB, function() {
     console.error('Error iniciando aplicación: ', err.stack);
     process.exit(1);
   });
-
+// <!-- by: RET BOT  -->
   // incluir controladores
   fs.readdirSync('../controladores').forEach(function (archivo) {
     if (archivo.substr(-3) == ".js") {
@@ -58,7 +59,7 @@ mongoose.connect(config.DB, function() {
       res.status(403).send({ success: false, msg: 'No autorizado' });
     }
   });
-
+// <!-- by: RET BOT  -->
   function inicioSesion(req, res, next) {
     if (req.isAuthenticated())
       return next();
@@ -67,7 +68,7 @@ mongoose.connect(config.DB, function() {
       console.log('¡Error! autenticación fallida');
     }
   }
-
+// <!-- by: RET BOT  -->
   router.get('/logout', function(req, res) {
     req.logout();
     res.send();
@@ -85,3 +86,4 @@ mongoose.connect(config.DB, function() {
 
 
   module.exports = server;
+// <!-- by: RET BOT  -->
