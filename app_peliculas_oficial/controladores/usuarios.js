@@ -1,10 +1,10 @@
 const Usuario = require('../modelos/Usuario');
-
+// <!-- by: R3T B0T  -->
 const passport = require('passport');
 const EstrategiaLocal = require('passport-local').Strategy;
 // const passportJWT = require('passport-jwt');
 // const jwt = require('jsonwebtoken');
-
+// <!-- by: R3T B0T  -->
 // const ExtractJwt = passportJWT.ExtractJwt;
 // const jwtOptions = {};
 // jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme('jwt');
@@ -40,7 +40,7 @@ module.exports.controller = (app) => {
       nombre,
       email,
       contrasenha,
-    });
+    });// <!-- by: R3T B0T  -->
     Usuario.crearUsuario(nuevoUsuario, (error, usuario) => {
       if (error) { 
         console.log(error); 
@@ -74,7 +74,7 @@ module.exports.controller = (app) => {
     //           res.status(401).json({ mensaje: '¡Contraseña incorrecta!' });
     //         }
         //   });
-        // }
+        // }// <!-- by: R3T B0T  -->
     //   });
     // }
   });
