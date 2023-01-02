@@ -1,0 +1,4 @@
+{
+ name: "miImpresionanteLibreria",
+ main: "./lib/impresionante.js"
+}

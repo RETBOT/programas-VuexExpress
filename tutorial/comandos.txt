@@ -1,0 +1,19 @@
+# En caso de no tenerlo descargamos nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.>
+# Descargamos babel
+npm install babel-cli babel-plugin-transform-es2015-modules-commonjs babel-plugin-transform-async-to-generator
+# Instalamos node version 6 con nvm
+nvm install 6 
+# usamos la version 6
+nvm use 6
+# Verificamos la version
+node -version
+ # o lo hacemos con : 
+ node --version
+# verificamos que se haya instalado babel
+./node_modules/.bin/babel --help
+# Verificamos la version de babel
+./node_modules/.bin/babel -V
+# Hacemos una pruena con el archivo ls
+./node_modules/.bin/babel ls.js -o ls-babel.js
+
