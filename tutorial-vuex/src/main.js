@@ -4,7 +4,7 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import { store } from './store/store';
-
+// <!-- by: R E T B O T  -->
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
@@ -16,3 +16,4 @@ new Vue({
   // template: '<App/>',
   render: h => h(App),
 });
+// <!-- by: R E T B O T  -->
