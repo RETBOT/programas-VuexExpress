@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+// <!-- by: RET BOT  -->
 const Esquema = mongoose.Schema;
 const EsquemaUsuario = new Esquema({ 
 	nombre: { type: String, required: true},
@@ -14,8 +14,8 @@ const EsquemaUsuario = new Esquema({
 		},
 		required: [true, 'Error, se requiere el número de telefono']
 	}
-});
+});// <!-- by: RET BOT  -->
 
 const Usuario = mongoose.model("Usuario", EsquemaUsuario);
 module.exports = Usuario;
-
+// <!-- by: RET BOT  -->
