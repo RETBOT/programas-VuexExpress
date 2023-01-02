@@ -1,7 +1,7 @@
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
-
+// <!-- by: R3T B0T  -->
 const path = require('path')
 
 module.exports = {
@@ -42,7 +42,7 @@ module.exports = {
 
     cssSourceMap: true
   },
-
+// <!-- by: R3T B0T  -->
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
@@ -55,7 +55,7 @@ module.exports = {
     /**
      * Source Maps
      */
-
+// <!-- by: R3T B0T  -->
     productionSourceMap: true,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
@@ -74,3 +74,4 @@ module.exports = {
     bundleAnalyzerReport: process.env.npm_config_report
   }
 }
+// <!-- by: R3T B0T  -->
