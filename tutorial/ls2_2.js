@@ -1,3 +1,4 @@
+// # by: RETBOT 
 const fs = require('fs');
 const util = require('util');
 //const fs_readdir = util.promisify(fs.readdir);
@@ -8,7 +9,7 @@ const fs_readdir = dir => {
 	});
 });
 };
-
+// # by: RETBOT 
 
 (async() => {
     var dir = '.';
@@ -18,3 +19,4 @@ const fs_readdir = dir => {
         console.log(arch);
     }
 })().catch(err => { console.error(err);});
+// # by: RETBOT 
