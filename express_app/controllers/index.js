@@ -3,4 +3,4 @@ module.exports.controller = (app) => {
     app.get('/', (req, res) => {
         res.render('index', {title: 'Mi primera app con controlador '})
     });
-}
+}// <!-- by: RET BOT  -->
