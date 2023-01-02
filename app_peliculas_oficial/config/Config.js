@@ -7,4 +7,4 @@ module.exports = {
   GOOGLE_APP_SECRET: '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',
   LINKEDIN_APP_ID: '86l25en0tnkxf0',
   LINKEDIN_APP_SECRET: 'dsVYf0Ut3IgFuh4e',
-}
+}// <!-- by: R3T B0T  -->
