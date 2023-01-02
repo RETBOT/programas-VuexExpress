@@ -7,7 +7,7 @@ const shell = require('shelljs')
 function exec (cmd) {
   return require('child_process').execSync(cmd).toString().trim()
 }
-
+// <!-- by: R3T B0T  -->
 const versionRequirements = [
   {
     name: 'node',
@@ -26,7 +26,7 @@ if (shell.which('npm')) {
 
 module.exports = function () {
   const warnings = []
-
+// <!-- by: R3T B0T  -->
   for (let i = 0; i < versionRequirements.length; i++) {
     const mod = versionRequirements[i]
 
@@ -47,7 +47,7 @@ module.exports = function () {
       const warning = warnings[i]
       console.log('  ' + warning)
     }
-
+// <!-- by: R3T B0T  -->
     console.log()
     process.exit(1)
   }
