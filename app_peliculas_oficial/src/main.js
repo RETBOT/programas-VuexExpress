@@ -3,7 +3,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import BootstrapVue from 'bootstrap-vue';
-
+// <!-- by: R ET BOT  -->
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import VueSwal from 'vue-swal';
@@ -26,3 +26,4 @@ new Vue({
   components: { App },
   template: '<App/>',
 });
+// <!-- by: R ET BOT  -->
