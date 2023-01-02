@@ -4,7 +4,7 @@
       fixed
       v-model="drawer"
       app
-    >
+    > <!-- by: RET BOT  -->
       <v-list dense>
         <router-link v-bind:to="{ name: 'Inicio' }"
           class="side_bar_link"
@@ -54,7 +54,7 @@
       <v-container fluid>
         <div id="app">
           <router-view/>
-        </div>
+        </div> <!-- by: RET BOT  -->
       </v-container>
     </v-main>
     <v-footer color="indigo" app>
@@ -112,4 +112,4 @@ export default {
     },
   },
 };
-</script>
+</script> <!-- by: RET BOT  -->
