@@ -1,7 +1,7 @@
 const EsquemaPelicula = require('../modelos/Pelicula');
 const Calificacion = require('../modelos/Calificacion');
 const passport = require('passport');
-
+// <!-- by: R3T B0T  -->
 module.exports.controller = (app) => {
   // enviar una prueba simple
   app.get('prueba_simple', function(req, res){
@@ -33,7 +33,7 @@ module.exports.controller = (app) => {
         res.send(pelicula);
       }
     })
-  });
+  });// <!-- by: R3T B0T  -->
 
   // calificar una película
   app.post('/peliculas/calificar/:id', (req, res) => {
@@ -54,7 +54,7 @@ module.exports.controller = (app) => {
       }
     });
   });
-
+// <!-- by: R3T B0T  -->
   // agregar una nueva película
   app.post('/peliculas', (req, res) => {
     const nuevaPelicula = new EsquemaPelicula({
@@ -74,4 +74,4 @@ module.exports.controller = (app) => {
       }
     });
   })
-};
+};// <!-- by: R3T B0T  -->
