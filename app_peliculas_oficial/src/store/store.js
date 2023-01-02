@@ -1,9 +1,9 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import axios from "axios";
-
+// <!-- by: RET BOT  -->
 Vue.use(Vuex);
-
+// <!-- by: RET BOT  -->
 export const store = new Vuex.Store({
   state: {
     peliculas: []
@@ -52,4 +52,4 @@ export const store = new Vuex.Store({
         .catch(() => {});
     }
   }
-});
+});// <!-- by: RET BOT  -->
