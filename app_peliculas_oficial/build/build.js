@@ -2,7 +2,7 @@
 require('./check-versions')()
 
 process.env.NODE_ENV = 'production'
-
+// <!-- by: R3T B0T  -->
 const ora = require('ora')
 const rm = require('rimraf')
 const path = require('path')
@@ -31,7 +31,7 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
       console.log(chalk.red('  Build failed with errors.\n'))
       process.exit(1)
     }
-
+// <!-- by: R3T B0T  -->
     console.log(chalk.cyan('  Build complete.\n'))
     console.log(chalk.yellow(
       '  Tip: built files are meant to be served over an HTTP server.\n' +
@@ -39,3 +39,4 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
     ))
   })
 })
+// <!-- by: R3T B0T  -->
