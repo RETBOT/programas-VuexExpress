@@ -5,7 +5,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 const sourceMapEnabled = isProduction
   ? config.build.productionSourceMap
   : config.dev.cssSourceMap
-
+// <!-- by: R E T B O T  -->
 module.exports = {
   loaders: utils.cssLoaders({
     sourceMap: sourceMapEnabled,
@@ -20,3 +20,4 @@ module.exports = {
     image: 'xlink:href'
   }
 }
+// <!-- by: R E T B O T  -->
