@@ -4,7 +4,7 @@
     <router-view/>
   </div>
 </template>
-
+<!-- by: R E T B O T  -->
 <script>
 export default {
   name: 'App',
@@ -21,3 +21,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+<!-- by: R E T B O T  -->
