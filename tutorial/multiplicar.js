@@ -1,6 +1,6 @@
 // Si no recibe ningun parametro, debe notificar al usuario como debe 
 // notificar al usuario como debe usar el script 
-
+// # by: RETBOT 
 // variables para la entrada de datos 
 var num1 = 0;
 var num2 = 0;
@@ -37,10 +37,10 @@ if(!isNaN(num1) && num2 == 0){
 }else{ // si no ingresa un numero valido
   console.log("Ingresar un numero!!!!! ಠ_ಠ");
 }
-
+// # by: RETBOT 
 }else{// Si no, se notifica al usuario como usar el script
  console.log("Tablas de multiplicar:");
  console.log("Opcion 1: ingresar un numero para mostrar su tabla de multiplicar.");
  console.log("Opcion 2: ingresar dos numeros para mostrar las tablas de multiplicar de todos los numeros dentro de ese rango (de menor a mayor)");
 }
-
+// # by: RETBOT 
