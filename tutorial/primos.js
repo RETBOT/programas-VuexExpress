@@ -1,5 +1,5 @@
 var numPrimo = 0;
-
+// # by: RETBOT 
 if(process.argv[2]) numPrimo = process.argv[2];
 
 if(!isNaN(numPrimo) && numPrimo != 0){
@@ -21,3 +21,4 @@ if(!isNaN(numPrimo) && numPrimo != 0){
   }
 }
 
+// # by: RETBOT 
